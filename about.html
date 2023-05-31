@@ -114,22 +114,7 @@
                             <ul class="main-menu__list">
                                 <li class="dropdown">
                                     <a href="index.html">Home</a>
-                                    <ul>
-                                        <li>
-                                            <a href="index.html">Home One</a>
-                                        </li>
-                                        <li><a href="index2.html">Home Two</a></li>
-                                        <li><a href="index3.html">Home Three</a></li>
-                                        <li class="dropdown">
-                                            <a href="#">Header Styles</a>
-                                            <ul>
-                                                <li><a href="index.html">Header One</a></li>
-                                                <li><a href="index2.html">Header Two</a></li>
-                                                <li><a href="index3.html">Header Three</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
+                                    
                                 <li class="dropdown">
                                     <a href="#">Services</a>
                                     <ul>
@@ -144,18 +129,10 @@
                                 </li>
                                 <li><a href="about.html">About</a></li>
                                 <li class="dropdown">
-                                    <a href="#">Cases</a>
-                                    <ul>
-                                        <li><a href="cases.html">Cases</a></li>
-                                        <li><a href="case-single.html">Case Single</a></li>
-                                    </ul>
+                                    <a href="cases.html">Cases</a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">News</a>
-                                    <ul>
-                                        <li><a href="news.html">News</a></li>
-                                        <li><a href="news-details.html">News Details</a></li>
-                                    </ul>
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -208,8 +185,8 @@
                         <div class="get-to-know__left">
                             <div class="section-title text-left">
                                 <span class="section-title__tagline">About Stellar Communications Group</span>
-                                <h2 class="section-title__title">Delivering ERRCS Solutions
-                                    that keep our communities safer.</h2>
+                                <h1 class="section-title__title">Delivering ERRCS Solutions
+                                    that keep our communities safer.</h1>
                             </div>
                             <p class="get-to-know__text">Stellar Communications Group specializes in providing public safety radio ERRCS solutions. 
                                 Headquartered in Coral Springs, Florida. Our national expertise allows us to deploy in-building ERRCS solutions with
@@ -303,10 +280,10 @@
                 }}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-1.png" alt="">
+                            <img src="https://errcs-background-images.s3.amazonaws.com/counter+1.webp" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
-                            <img src="assets/images/brand/brand-1-2.png" alt="">
+                            <img src="https://errcs-resources.s3.amazonaws.com/nfpa+logo.webp" alt="">
                         </div><!-- /.swiper-slide -->
                         <div class="swiper-slide">
                             <img src="assets/images/brand/brand-1-3.png" alt="">
@@ -440,7 +417,7 @@
             <div class="counter-one-wrap">
                 <div class="counter-one-shape"
                     style="background-image: url(assets/images/shapes/counter-one-shape.png)"></div>
-                <div class="counter-one-img"><img src="assets/images/resources/counter-one-img.jpg" alt=""></div>
+                <div class="counter-one-img"><img src="https://errcs-background-images.s3.amazonaws.com/counter+1.webp" alt=""></div>
                 <div class="counter-one-shape-2"><img src="assets/images/shapes/counter-one-shape-2.png" alt=""></div>
                 <div class="counter-one-shape-3"><img src="assets/images/shapes/counter-one-shape-3.png" alt=""></div>
                 <div class="container">
@@ -745,7 +722,32 @@
     <script src="assets/vendors/timepicker/timePicker.js"></script>
 
 
+    <script src="https://komito.net/komito.js" async></script>
 
+    <script>
+    // The default configuration can be omitted and only changed properties can be included.
+    var _komito = _komito || {
+      'trackTwitter': 1,     // Tracks Twitter events if widget is presented on page.
+      'trackFacebook': 1,    // Tracks Facebook events if widget is presented on page.
+      'trackLinkedIn': 1,    // Tracks LinkedIn events if plugin is presented on page.
+      'trackDownloads': 1,   // Tracks files download links.
+      'trackOutbound': 1,    // Tracks outbound links.
+      'trackForms': 1,       // Tracks forms submissions.
+      'trackUsers': 1,       // Tracks pageviews by users logged in to social networks.
+      'trackActions': 1,     // Tracks 'mailto', 'tel', 'sms' and 'skype' actions.
+      'trackPrint': 1,       // Tracks page print actions.
+      'trackOrientation': 1, // Tracks orientation change on mobile devices.
+      'trackColorScheme': 1, // Tracks user preferred color scheme.
+      'trackAdblock': 0,     // Tracks page views with blocked ads. (Experimental)
+      'trackErrorPages': 0,  // Tracks error pages. (Experimental)
+      'sendHeartbeat': 0,    // Sends heartbeat event. (Default interval 30 seconds)
+      'debugMode': 0,        // Prints all requests to console.
+      'trackScroll': [25, 50, 75, 100], // Tracks scroll depth.
+      'trackMedia': ['html5', 'vimeo', 'youtube'], // Tracks HTML5 video, audio, Vimeo and YouTube players events.
+      'nonInteraction': ['adblock', 'audio', 'color-scheme', 'form', 'heartbeat', 
+                         'orientation', 'print', 'scroll', 'video'] // List of non interaction events.
+    };
+    </script>
 
     <!-- template js -->
     <script src="assets/js/conult.js"></script>
